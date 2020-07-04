@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="vievport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" herf="styles.css">
+	<title> Google </title>
+	<style>
+		.logo{
+			margin-top: 12em;
+			text-align: center;
+		}
+		.search{
+			margin-top: 1.5em;
+			text-align: center;
+		}
+		
+		input[type=text] {
+            		font-size: medium;
+            		width: 30%;
+		        height: 45px;
+            		border: 1px solid lightgrey;
+            		border-radius: 100px;
+            		margin-bottom: 1em;
+            		padding: 0px 20px 0 20px;
+        	}
+
+        	input[type=text]:hover {
+            		box-shadow: 0px 3px 4px lightgray, 0px -1px 2px lightgray, -1px 0px 2px lightgray, 1px 0px 2px lightgray;
+        	}
+
+		.button{
+			text-align: center;
+         		margin-top: 1em;
+        	}
+
+		input[type=button] {
+            		background-color:   rgb(241, 241, 241);
+		        font-size: 15px;
+		        color: rgb(70, 70, 70);
+		        border: 1px solid rgb(241, 241, 241);
+            		padding: 10px 15px;
+            		margin: 2px 5px;
+            		border-radius: 4px;
+            		transition-duration: 0.2s;
+        	}
+
+        	input[type=button]:hover {
+            		box-shadow: 0px 1px 1px rgba(150, 150, 150, 0.884);
+            		border: 1px solid rgba(150, 150, 150, 0.884);
+            		color: black;
+        	}
+		.nav-end{
+			text-align: end;
+        	}
+
+			
+		.link {
+			padding: 0px 3px;
+            		text-decoration: none;
+            		font-size: small;
+		}
+
+		.link:hover{
+			 text-decoration: underline;
+        	}
+
+		.foot {
+            		position: fixed;
+            		left: 0;
+            		bottom: 0;
+            		display: grid;
+            		width: 100%;
+            		grid-template-columns: 50% 50%;
+            		padding-bottom: 10px;
+        	}
+		.foot-link {
+            		padding: 0px 4px;
+            		margin: 0px 5px;
+            		text-decoration: none;
+            		font-size: small;
+			
+        	}
+
+		.foot-link:hover{
+			text-decoration: underline;
+        	}
+
+
+
+
+</style>
+
+</head>
+<body>
+    <header>
+        <nav class="nav-end">
+            <a href="#" class="link">Gmail</a>
+            <a href="#" class="link">Images</a>
+            <a href="#" class="apps"><img src="https://img.icons8.com/material-two-tone/24/000000/squared-menu.png"/></a>
+            <a class="btn">Sign In</a>
+        </nav>
+    </header>
+	<main class="center">
+	    	<div class="logo">
+			<img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+	    	</div>		
+	 	<div class="search">
+			<input type="text" name="search" placeholder="Search Google or write a URL">
+		</div>
+		<div class="button">
+			<input type="button" value="Google Search">
+			<input type="button" value="I'm Feeling Lucky">
+		</div>
+		
+	</main>
+	<footer class="foot">
+		<div id="Norway"> Norway </div><br>
+			<div style="text-align:start;">
+				<a href="#" class="foot-link">Advertising</a>
+                		<a href="#" class="foot-link">Business</a>
+                		<a href="#" class="foot-link">About</a>
+                		<a href="#" class="foot-link">How Search works</a>
+ 			</div>
+        		<div style="text-align: end;">
+	               		<a href="#" class="foot-link">Privacy</a>
+                		<a href="#" class="foot-link">Terms</a>
+                		<a href="#" class="foot-link">Settings</a>
+            		</div>
+        	</div>
+    	</footer>
+</body>
+</html>
